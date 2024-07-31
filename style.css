@@ -1,0 +1,159 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Header */
+header {
+    background: antiquewhite;
+    color: #fff;
+    padding: 20px 0;
+}
+header .logo h1 {
+    margin: 0;
+    color: midnightblue;
+}
+header nav ul {
+    list-style: none;
+}
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+header .contact-info p {
+    margin: 5px 0;
+}
+header .contact-info a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/background.jpeg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.hero-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+.cta-btn {
+    background: #e63946;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Services Section */
+.services {
+    padding: 50px 0;
+    background: #f4f4f4;
+}
+.services h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: midnightblue;
+}
+.service-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.service-item img {
+    width: 80px;
+    height: 80px;
+}
+.service-item h3 {
+    margin: 10px 0;
+    color: midnightblue;
+}
+.service-item p {
+    margin-bottom: 20px;
+}
+.cta-btn {
+    background: #e63946;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 50px 0;
+}
+.portfolio h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.event-item {
+    margin-bottom: 30px;
+}
+.event-item img {
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px; 
+    transition: box-shadow 0.3s ease;
+}
+.event-item h3 {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+.footer-contact {
+    text-align: center;
+}
+.footer-social a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.footer-newsletter {
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-newsletter form {
+    display: inline-block;
+}
+.footer-newsletter input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.footer-newsletter button {
+    padding: 10px 20px;
+    background: #e63946;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
